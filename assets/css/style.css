@@ -347,3 +347,27 @@ footer a {
     padding-inline: 200px;
   }
 }
+
+@media print {
+  body {
+    background-image: none;
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+  }
+  header,
+  footer,
+  section,
+  aside {
+    display: none;
+  }
+  img {
+    float: left;
+    margin-right: 1em;
+  }
+  iframe {
+    display: none;
+  }
+  table th {
+    color: black;
+  }
+}
